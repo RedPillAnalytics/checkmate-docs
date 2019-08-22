@@ -132,38 +132,38 @@ Enable Scenarios: true (or as specified)
 - Import Project Directory
 
 	- Parameters (optional)
-    Source Path: path to project directory. 
+		- Source Path: path to project directory. 
 
 - Import Project File
 
 	- Parameters (optional)
-    Source File: project file exported.
+		- Source File: project file exported.
 
 - Import Model Directory  
 
 	- Parameters (optional)
-    Source Path: path to project model directory.
+		- Source Path: path to project model directory.
 
 - Import Load Plan Directory
 
 	- Parameters (optional)
-    Source Path: path to project load plans directory.
+		- Source Path: path to project load plans directory.
 
 - Export Project Directory
 
 	- Parameters (optional)
-    Folder Name: The folder to export.
-    Object Type: The type of the object to export (reusable mapping, mapping, procedure and package).
-    Object Name: The name of the object to export.
+		- Folder Name: The folder to export.
+		- Object Type: The type of the object to export (reusable mapping, mapping, procedure and package).
+		- Object Name: The name of the object to export.
 
 - Export Project File
 
 - Export Model Directory
 
 	- Parameters (optional)
-    Model Code: model code to export.
+		- Model Code: model code to export.
 
 - Export Load Plans Directory
 
 	- Parameters (optional)
-    Source Path: path to project load plan directory.
+		- Source Path: path to project load plan directory.
