@@ -1,3 +1,4 @@
+
 # Checkmate Documentation
 
 ## What is Checkmate Studio?
@@ -60,10 +61,10 @@ Currently Checkmate Studio supports:
 
 Source Base: 'directory where you cloned git repo' Ex: c:\git  
 Domain Home: 'directory where you installed OBI' Ex: c:\fmw\product\12.2.1.4\user_projects\domains\bi  
-Checkmate Version: 10.1.2 (latest as of time of writing)  
+Checkmate Version: 10.1.8 (latest as of time of writing)  
 OBIEE Version: 'version of OBI you are working with'  
 Source Base Type: MDS-XML (unless otherwise needed)  
-Metadata Project: 'blank'  
+Metadata Project: 'blank' (or as specified among the available metadata existing projects)
 Admin User: weblogic (or as specified)  
 Admin Pass: Admin123 (or as specified)  
 Repo Pass: Admin123 (or as specified)  
@@ -82,8 +83,8 @@ Online Catalog: Mark for using online presentation catalog instead of the offlin
 
 - Export
 
-  Catalog: Mark for exporting catalog
-  Metadata: Mark for exporting metadata
+    Catalog: Mark for exporting catalog
+    Metadata: Mark for exporting metadata
 
 - Reload
 
@@ -106,7 +107,7 @@ You can drag and drop .rpd and .catalog files onto the settings sidebar to initi
 
 Project Name: ‘name project as you wish’   
 Source Base: ‘directory where you cloned git repo’  
-Checkmate Version: 0.1.17 (latest as of time of writing)  
+Checkmate Version: 0.1.22 (latest as of time of writing)  
 ODI Version: ‘version of ODI you are working with’  
 URL: ‘jdbc:oracle:thin:@hostname:1521/ORCL’ (specify repo url)  
 Driver Name: oracle.jdbc.OracleDriver (or as specified)  
@@ -115,27 +116,42 @@ Master Password: ‘master repo password’
 Work Repo: WORKREP (or as specified)  
 ODI User: SUPERVISOR (or as specified)  
 ODI Password: ‘password’  
+Content Policy: Directory (or as specified) 
+Work Repository: Development
+Import Parameters: false (or as specified)
+Export Parameters: false (or as specified)
+Enable Projects: true (or as specified)
+Enable Globals: true (or as specified)
+Enable Topologies: true (or as specified)
+Enable Models: true (or as specified)
+Enable LoadPlans: true (or as specified)
+Enable Scenarios: true (or as specified)
 
 ### Tasks
 
 - Import Project Directory
 
-    Source Path: path to project directory.
+	- Parameters (optional)
+    Source Path: path to project directory. 
 
 - Import Project File
 
+	- Parameters (optional)
     Source File: project file exported.
 
 - Import Model Directory  
 
+	- Parameters (optional)
     Source Path: path to project model directory.
 
 - Import Load Plan Directory
 
+	- Parameters (optional)
     Source Path: path to project load plans directory.
 
 - Export Project Directory
 
+	- Parameters (optional)
     Folder Name: The folder to export.
     Object Type: The type of the object to export (reusable mapping, mapping, procedure and package).
     Object Name: The name of the object to export.
@@ -144,8 +160,10 @@ ODI Password: ‘password’
 
 - Export Model Directory
 
+	- Parameters (optional)
     Model Code: model code to export.
 
 - Export Load Plans Directory
 
+	- Parameters (optional)
     Source Path: path to project load plan directory.
