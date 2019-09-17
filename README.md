@@ -153,7 +153,7 @@ Options for command line utility:
 - Import
 - Export
 
-#### Importing with optional paramers
+#### Importing with optional parameters
 
 Import Project Directory
 
@@ -171,7 +171,7 @@ Import Load Plan Directory
 
    - Source Path: path to project load plans directory.
 
-#### Exporting with optional paramers
+#### Exporting with optional parameters
 
 Export Project Directory
 
