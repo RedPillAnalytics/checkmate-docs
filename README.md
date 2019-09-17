@@ -41,6 +41,8 @@ Currently Checkmate Studio supports:
  - Terminate Gradle Tasks: Stop all gradle processes.
  - Write Gradle Build File: Create (if not created) or update build.gradle file with the settings defined.
  - Open command prompt build directory: used for command line execution.
+ - Test Connection: run a task that validate the connection to the BI Tool repository using the parameters specified
+ - Save to File: Save the parameters in the settings to a file called 'initial.json'
 
 ## OBI
 
