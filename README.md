@@ -203,14 +203,14 @@ Export Load Plans Directory
 
 ### Settings
 
-Infa Home:‘name project as you wish’
-Installation Type: Client (or specified)
-Source Base:‘directory where you cloned git repo’  
-Repo Name: INFA_REPO_RPA (or as specified)
-Domain: DOMAIN_RPA (or as specified)
-Checkmate Version: 1.0.0 (only current available version)  
-Admin: 'admin'
-Admin Password: 'password'
+Infa Home: ‘name project as you wish’      
+Installation Type: Client (or specified)     
+Source Base: ‘directory where you cloned git repo’       
+Repo Name: INFA_REPO_RPA (or as specified)    
+Domain: DOMAIN_RPA (or as specified)    
+Checkmate Version: 1.0.0 (only current available version)     
+Admin: 'admin'   
+Admin Password: 'password'   
 
 ### Preferences
 
@@ -228,7 +228,7 @@ Import Objects
 Import Directory
 
   - Folder Name: The folder to import.
-  - Object Type: The type of the object to import (reusable mapping, mapping, procedure and package).
+  - Object Type: The type of the object to import (workflow, worklet, mapping, mapplet, source and target).
   - Object Name: The name of the object to import.
 
 Import File
@@ -241,9 +241,9 @@ Export Objects
 
 Export Directory
 
-- Folder Name: The folder to export.
-- Object Type: The type of the object to export (reusable mapping, mapping, procedure and package).
-- Object Name: The name of the object to export.
+- Folder Name: The folder to import.
+- Object Type: The type of the object to import (workflow, worklet, mapping, mapplet, source and target).
+- Object Name: The name of the object to import.
 
 Export File
 
